@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.single-college{
+    border: 2px solid black;
+    margin: 8px;
+    width:230px;
+    height: 230px;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+    overflow-wrap: initial;
+    background-color: black;
+    box-shadow: 10px 10px 10px gray;
+}
+.single-college .links{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+ width: 100%;
+}
+
+
